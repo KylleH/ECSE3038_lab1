@@ -15,5 +15,4 @@ def temperature_check(temp, char):
     else:
         print("Person has hypothermia.")
 
-# Example usage:
-temperature_check(98.6, "F")  # Replace with the actual temperature and scale you want to ch
+
