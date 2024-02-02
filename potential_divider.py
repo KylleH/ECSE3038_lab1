@@ -3,7 +3,7 @@ def potential_divider(volt, r):
     return voltage_drop
 
 voltage_source = 10.0  # Replace with your actual voltage source value
-resistor_values = [100, 200, 300,400,10]  # Replace with your actual resistor values
+resistor_values = [100, 200, 300, 400, 10]  # Replace with your actual resistor values
 
 vdrop = potential_divider(voltage_source, resistor_values)
 print("Voltage drop across resistors:", vdrop)
