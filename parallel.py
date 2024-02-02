@@ -1,3 +1,4 @@
-def parallel(r1,r2):
-    return r1*r2/(r1+r2)
-print(parallel(100,100)) 
+def parallel(r):
+    parallel_resistance = 1 / sum(1 / i for i in r)
+    print( f"{round(parallel_resistance)}"+" ohms")
+    
